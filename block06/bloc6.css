@@ -1,0 +1,27 @@
+/* css for images and background*/
+#food{ position: absolute;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 20px;
+  left: 50%;
+  top: 50;
+  transform: translate(-50%,-50%)}
+    
+  .images{ padding: 2%;
+  float: right;
+  object-fit: cover;
+  border-radius: 15px;}
+  
+    
+  .pantry, .freezer { overflow:hidden;
+  border-radius: 15px;
+  margin-bottom:auto;}
+      
+  .pantry { background-color: lightblue;
+  margin-top: 60px;}
+    
+  .freezer{ background-color: pink;}
+  
+  
+  table{ border-collapse: collapse;
+  letter-spacing: 1px;}

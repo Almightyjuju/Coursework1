@@ -1,0 +1,53 @@
+header { 
+  font-family: Arial;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px
+
+
+}
+h2{
+  font-family: arial;
+  font-size:18px;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+
+}
+p{
+  font-family: arial;
+  font-size:12px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+img { 
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+  
+  background-color: rgb (222,86,55)
+
+}
+nav { font-size: 10px;
+  text-align: center;
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+div{ background-color:antiquewhite;
+  object-fit: cover; 
+
+
+}

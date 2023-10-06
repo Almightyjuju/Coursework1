@@ -1,0 +1,44 @@
+/* css for text*/
+.header, h1 { 
+  text-align: center;
+  font-weight: bold;
+  font-family: arial;}  /* */
+    
+  
+  
+  .header {  
+  position: absolute;
+  text-decoration: underline;
+  left: 50%;
+  top: 50;
+  transform: translate(-50%,-50%);
+  color: rgb(195, 255, 0);
+  left: 50;
+  right: -50;
+  top: 50;
+  bottom: -50;}
+  
+  h1 {
+  text-align: center; 
+  margin-top: 0px;
+  margin-bottom: 2px;}
+  
+  
+  
+  td, th { 
+  border: 2px solid rgb(190,190,190);
+  padding: 5px 5px; font-family:arial}
+  
+  th { 
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center}
+  
+  td { 
+  font-size: 14px;}
+  
+  .list {
+  font-family:arial;
+  padding-left: 8px;
+  padding-bottom: 2px;
+  font-size: 10px;}
