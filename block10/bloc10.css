@@ -1,0 +1,41 @@
+/* form{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+} */
+
+form{
+  display:flex;
+  flex-wrap:wrap; }
+
+.form-item{
+  background-color: aquamarine;
+  padding:5px;}
+
+input{
+  background-color: blueviolet;} 
+
+form label:nth-child(3){color:crimson}
+
+#submit-btn{
+  grid-column: span 2;
+  width: 100px;
+  justify-self: center;
+
+}
+
+#blue-box{
+  position: fixed;
+  background-color: blue;
+  height:15px;
+  width:150px;
+  z-index: -1;
+}
+
+
+
+.red-btn{ background-color: red;}
+
+button{ background-color: aqua;}
+
+button:hover{ background-color: goldenrod;}
