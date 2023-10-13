@@ -1,4 +1,5 @@
 .container{
+  left: 15rem;
   position: relative;
   background-color: rgb(80, 106, 123);
   width:80vw;
@@ -107,3 +108,21 @@
   height: 30px;
   background-color: lightblue;}
 
+  form{
+  padding: 10px;
+  border: 5px solid black;
+  height: 10rem;
+  width: 10rem;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;}
+
+
+  header{
+    position: relative;
+    left: 30rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: oblique;
+   font-size: 5rem;  
+   color:  rgb(172, 172, 54);
+  }
