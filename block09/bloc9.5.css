@@ -1,37 +1,50 @@
 .container{
   position: relative;
-  background-color: lightskyblue;
+  background-color: rgb(80, 106, 123);
   width:80vw;
   height:80vh;
   border:0.5em solid black;
-  z-index: -1;} 
+  z-index: -5;} 
 
 #moon{
   position: absolute;
   top:100px;
-  left: 50px;
+  left: 28rem;
   background-color: rgb(172, 172, 54);
   border-radius: 50%;
   width: 8rem;
   height:8rem;
-  z-index: 1} 
+  z-index: 1;} 
 
 
 #building-one{
+  align-self: center;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
   position: absolute;
-  bottom: 0;;
-  left:120px;
-  height: 15rem;
-  width: 7rem;
-  background-color: grey;}
+  bottom: 0;
+  left:132px;
+  height: 18rem;
+  width: 9rem;
+  background-color: grey;
+  z-index: -2;}
 
 #building-two{
-  position:absolute;
+  padding-right: 12px;
+  display: flex;
+  justify-content: center ;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
   bottom:0;
-  left: ;
-  height: 10rem;
-  width: 5rem;
- background-color:grey ;}
+  left: 0;
+  height: 14rem;
+  width: 7rem;
+  background-color:grey ;
+  z-index: -2;}
 
  .grass{
   position: absolute;
@@ -40,14 +53,57 @@
   height: 2px;
   background-color: green;
   border: solid 3px green;
+  z-index: -3;
  }
 
 
 
- .trunck{
+ .trunk{
   position: absolute;
   bottom:0;
   right: 15px;
-  width: 2em;
-  height: 3rem;
-  background-color: brown;}
+  width: 1em;
+  height: 1rem;
+  background-color: rgb(68, 26, 26);
+  z-index: -3;}
+
+
+
+.house{
+  
+  position: absolute;
+  bottom: 0;
+  right: 8rem;
+  width: 5rem;
+  height: 4rem;
+  background-color: black;
+  z-index: -4; }
+
+
+.door{
+  position: absolute;
+  left: 2rem;
+  bottom: 0;
+  width: 1rem;
+  height: 2rem;
+  background-color:  white;
+  z-index: -4;
+}  
+
+
+.window{
+  margin:22px;
+  border: 3px solid black;
+  width: 2rem;
+  height: 30px;
+  background-color: lightblue;
+} 
+  
+.window-two{
+  right:0;
+  margin: 12px;;
+  border: 3px solid black;
+  width: 2rem;
+  height: 30px;
+  background-color: lightblue;}
+
